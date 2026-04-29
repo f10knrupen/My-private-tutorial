@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bright Horizons Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #e0f7ff, #fffbe6);
+    }
+    .watermark {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.08;
+      z-index: 0;
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Watermark Logo -->
+  <img src="logo.png" class="watermark" alt="logo watermark">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-6 text-center shadow-lg relative z-10">
+    <img src="logo.png" class="mx-auto w-24 mb-2">
+    <h1 class="text-3xl font-bold">Bright Horizons Academy</h1>
+    <p class="text-sm mt-1">Where Young Minds Shine</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-12 px-4 relative z-10">
+    <h2 class="text-3xl font-bold text-blue-700">Fun Learning for Bright Kids 🎈</h2>
+    <p class="mt-3 text-gray-700 text-lg">Interactive, playful and effective learning for primary school students.</p>
+  </section>
+
+  <!-- About -->
+  <section class="bg-white py-10 px-6 max-w-4xl mx-auto rounded-2xl shadow-xl relative z-10">
+    <h3 class="text-2xl font-bold text-purple-600 mb-3">About Us</h3>
+    <p class="text-gray-700">We help children grow with confidence, creativity, and strong fundamentals using fun-based teaching methods.</p>
+  </section>
+
+  <!-- Programs -->
+  <section class="py-12 px-6 text-center relative z-10">
+    <h3 class="text-2xl font-bold text-blue-700 mb-8">Our Programs 🌟</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-yellow-100 p-5 rounded-2xl shadow hover:scale-105 transition">Communication Skills</div>
+      <div class="bg-pink-100 p-5 rounded-2xl shadow hover:scale-105 transition">Public Speaking</div>
+      <div class="bg-green-100 p-5 rounded-2xl shadow hover:scale-105 transition">Reading Skills</div>
+      <div class="bg-blue-100 p-5 rounded-2xl shadow hover:scale-105 transition">Confidence Building</div>
+      <div class="bg-purple-100 p-5 rounded-2xl shadow hover:scale-105 transition">Personality Development</div>
+      <div class="bg-orange-100 p-5 rounded-2xl shadow hover:scale-105 transition">Memory Improvement</div>
+      <div class="bg-teal-100 p-5 rounded-2xl shadow hover:scale-105 transition">Life Skills & Relationships</div>
+      <div class="bg-red-100 p-5 rounded-2xl shadow hover:scale-105 transition">Mathematics Fun</div>
+      <div class="bg-indigo-100 p-5 rounded-2xl shadow hover:scale-105 transition">Basics in Other Languages</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-gradient-to-r from-blue-200 to-purple-200 py-10 text-center relative z-10">
+    <h3 class="text-2xl font-bold text-blue-800">Contact Us 📞</h3>
+    <p class="mt-3 text-lg">6300422368</p>
+    <p class="text-md">At Vegetable Market Lane, Nallakunta, Hyderabad - 500044.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center p-4 relative z-10">
+    <p>© 2026 Bright Horizons Academy</p>
+  </footer>
+
+</body>
+</html>
